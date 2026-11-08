@@ -1,0 +1,26 @@
+# Dados restritos
+dados_restritos*/
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.ods
+
+# Bancos e arquivos auxiliares do SQLite
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Ambiente virtual e arquivos temporários
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
